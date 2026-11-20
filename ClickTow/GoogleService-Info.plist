@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>793962428553-n577cd3s1ichil5331h8gd6nihe1jf8f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.793962428553-n577cd3s1ichil5331h8gd6nihe1jf8f</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>793962428553-ccb23fla7lig8v3494kt4mvm2tbgj44g.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDv2Bed9hB4ntWtP4qUdgH9Ss57RGv__3A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>793962428553</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ideaLogics.ClickTow1</string>
+	<key>PROJECT_ID</key>
+	<string>clicktow-c7688</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clicktow-c7688.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:793962428553:ios:dea4a4e8ee5387b329ae58</string>
+	<key>DATABASE_URL</key>
+	<string>https://clicktow-c7688-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

